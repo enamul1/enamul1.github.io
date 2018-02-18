@@ -730,3 +730,19 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
+
+
+/* custom css */
+.company-name {
+    float: left !important;
+    font-style: italic;
+}
+
+.no-bottom-border-margin {
+    border-bottom: none !important;
+    margin-bottom: unset !important;
+}
+
+.no-bottom-border {
+  border-bottom: none !important;
+}
